@@ -103,8 +103,5 @@ Events.on(engine, 'afterUpdate', function(event) {
     t.torque = 8;
 });
 
-render.canvas.onclick = () => Engine.run(engine);
-render.canvas.ontap = () => Engine.run(engine);
-
-// Engine.run(engine);
+Engine.run(engine)
 Render.run(render);
