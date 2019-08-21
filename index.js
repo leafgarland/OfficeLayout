@@ -104,6 +104,7 @@ Events.on(engine, 'afterUpdate', function(event) {
 });
 
 render.canvas.onclick = () => Engine.run(engine);
+render.canvas.ontap = () => Engine.run(engine);
 
 // Engine.run(engine);
 Render.run(render);
